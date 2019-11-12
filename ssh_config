@@ -1,0 +1,12 @@
+#Umich Gitlab
+Host gitlab
+  HostName gitlab.eecs.umich.edu
+  User git
+  IdentityFile ~/.ssh/id_rsa
+
+# CAEN
+Host caen
+  HostName login.engin.umich.edu
+  User enliu
+  Compression yes
+  
